@@ -1,6 +1,16 @@
 # Developing-a-CES-device-simulator-with-AGILE-modelling
 # COMP 3004 Project
 
+The goal of this project was to develop and test a simulator for the embedded
+software used in Cranial Electrical Stimulation (CES) devices, similar to the Alpha-Stim
+product. A CES device is a non-invasive neuro-stimulation medical device that delivers
+microcurrents via electrodes connected to the earlobes to stimulate the brain for the
+purposes of therapeutic intervention. This non-invasive intervention has been shown to
+treat conditions such as insomnia, anxiety, and depression. The implementation was
+done in C++ using the QT framework. What follows are the use cases that were
+designed from the given specification.
+The technical document has the specification for the design and all the Modelling
+
 ## Team Members  
   
 Billal Ghadie  
@@ -37,13 +47,3 @@ Before starting **any** automated test, the following two conditions **must** ho
 
 **Note:** It is suggested that the automated tests be run in the order provided on the application window.  
 This is because Test 9 disables the AlphaStim device permanently.  
-
-The goal of this project was to develop and test a simulator for the embedded
-software used in Cranial Electrical Stimulation (CES) devices, similar to the Alpha-Stim
-product. A CES device is a non-invasive neuro-stimulation medical device that delivers
-microcurrents via electrodes connected to the earlobes to stimulate the brain for the
-purposes of therapeutic intervention. This non-invasive intervention has been shown to
-treat conditions such as insomnia, anxiety, and depression. The implementation was
-done in C++ using the QT framework. What follows are the use cases that were
-designed from the given specification.
-The technical document has the specification for the design and all the Modelling
